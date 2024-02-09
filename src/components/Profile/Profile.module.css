@@ -1,0 +1,71 @@
+.profile {
+    display: flex;
+    height: auto;
+    width: 500px;
+    border: #7e6f7498 solid 2px;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+}
+.aboutUser {
+    margin: 15px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    border-bottom: #7e6f7498 solid 2px;
+}
+.imgUser {
+    width: 100px;
+    box-shadow: 0 0 3px 0px #0000004d;
+    border-radius: 50%;
+    background-color: darkgray;
+    padding: 20px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+.name {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #393537;
+}
+.tag{
+    font-weight: 500;
+    font-size: 20px;
+    color: #524a4d;
+    margin-bottom: 15px;
+}
+.location {
+  font-weight: 700;
+  font-size: 20px;
+  color: #524a4d;
+  margin-bottom: 15px;
+}
+.statistics {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly
+}
+.liStatistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    min-width: 80px;
+    padding: 7px 0;
+}
+.label {
+    margin-right: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #524a4d8b;
+    margin-bottom: 5px;
+  }
+  .quantity {
+    font-weight: 800;
+    font-size: 20px;
+    color: #524a4d;
+  }

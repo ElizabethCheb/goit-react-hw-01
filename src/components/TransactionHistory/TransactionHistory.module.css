@@ -1,0 +1,36 @@
+/* TransactionHistory.module.css */
+
+.transactionHistory {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .transactionHistory table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactionHistory th, .transactionHistory td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .transactionHistory th {
+    text-align: center;
+    background-color: #595656;
+  }
+  
+  /* Додайте стилі для кожного типу колонки */
+  .transactionHistory .typeColumn {
+    width: 25%;
+  }
+  
+  .transactionHistory .amountColumn {
+    width: 25%;
+  }
+  
+  .transactionHistory .currencyColumn {
+    width: 25%;
+  }
+  

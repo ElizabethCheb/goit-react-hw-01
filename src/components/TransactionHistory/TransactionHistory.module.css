@@ -1,5 +1,3 @@
-/* TransactionHistory.module.css */
-
 .transactionHistory {
     width: 100%;
     margin-top: 20px;
@@ -21,7 +19,6 @@
     background-color: #595656;
   }
   
-  /* Додайте стилі для кожного типу колонки */
   .transactionHistory .typeColumn {
     width: 25%;
   }

@@ -1,8 +1,6 @@
-// TransactionHistory.jsx
-
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './TransactionHistory.module.css'; // імпортуйте ваші стилі
+import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (

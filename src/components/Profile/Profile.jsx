@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Profile.module.css'; // CSS-модулі для стилізації
+import styles from './Profile.module.css';
 import PropTypes from 'prop-types';
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
@@ -31,7 +31,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
 
 export default Profile;
 Profile.propTypes = {
-  name: PropTypes.string.isRequired,  // Змінилось з `username` на `name`
+  name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

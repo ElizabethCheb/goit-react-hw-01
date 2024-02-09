@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FriendList.module.css';  // CSS-модулі для стилізації
+import styles from './FriendList.module.css';
 import PropTypes from 'prop-types';
 
 const FriendList = ({ friends }) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import Profile from './Profile/Profile';
 import FriendList from './FriendList/FriendList';
 import TransactionHistory from './TransactionHistory/Transactions'

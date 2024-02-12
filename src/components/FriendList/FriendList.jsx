@@ -1,18 +1,17 @@
 import styles from './FriendList.module.css';
 import PropTypes from 'prop-types';
-
 const FriendList = ({ friends }) => {
   return (
     <div className={styles.friendList}>
-      <ul className={styles.friendList__list}>
+      <ul className={styles.list}>
         {friends.map(({ avatar, name, isOnline, id }) => (
-          <li className={styles.friendList__item} key={id}>
-            <div className={styles.friendList__itemContent}>
-              <img className={styles.avatarFriends} src={avatar} alt={name} />
-              <p className={styles.friendList__name}>{name}</p>
-              <span className={`${styles.friendList__status} ${isOnline ? styles.online : styles.offline}`}>
+          <li className={styles.item} key={id}>
+            <div className={styles.Content}>
+              <img className={styles.avatar} src={avatar} alt={name} />
+              <p className={styles.name}>{name}</p>
+              <p className={`${styles.status} ${isOnline ? styles.online : styles.offline}`}>
                 {isOnline ? 'Online' : 'Offline'}
-              </span>
+              </p>
             </div>
           </li>
         ))}
@@ -20,7 +19,6 @@ const FriendList = ({ friends }) => {
     </div>
   );
 };
-
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
@@ -31,5 +29,4 @@ FriendList.propTypes = {
     })
   ).isRequired,
 };
-
 export default FriendList;
